@@ -1,6 +1,6 @@
-<!DOCTYPE html>
-<!-- saved from url=(0032)file:///D:/PROJEK/tanpalogo.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"> 
+	<!doctype html>
+<html> 
+ <head> 
   <title>Simulasi Kredit Syariah</title> 
   <style>
     body {
@@ -71,7 +71,7 @@
  <body> 
   <div class="container"> 
    <div class="logo"> 
-   <img src="BES.png" alt="BES">
+   <img alt="BES" class="chakra-image css-16qjkai" src="BES.PNG">
    </div> 
    <h1>Simulasi Kredit Syariah</h1>
    <div class="form-group"> <label for="harga-barang">Harga Barang</label> 
@@ -83,10 +83,7 @@
    <div class="form-group"> <label for="tenor">Tenor (bulan)</label> 
     <input type="number" id="tenor" max="24"> 
    </div> <button class="btn-calculate" onclick="calculate()">Hitung</button> 
-   <div id="result" class="result">
-        <p>Angsuran Bulanan: Rp&nbsp;466.666,67</p>
-        <p>Jumlah Angsuran: Rp&nbsp;5.600.000,00</p>
-      </div> 
+   <div id="result" class="result"></div> 
   </div> 
   <script>
     function formatRupiah(input) {
